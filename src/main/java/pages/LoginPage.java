@@ -5,8 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.sql.SQLOutput;
 
-    public class LoginPage {
+
+public class LoginPage {
         WebDriver driver;
 
         public LoginPage(WebDriver driver  ) {
@@ -27,6 +29,7 @@ import org.openqa.selenium.support.PageFactory;
             passwordInput.sendKeys(password);
             loginButton.click();
 
+            System.out.println("asdsFs");
         }
     }
 
